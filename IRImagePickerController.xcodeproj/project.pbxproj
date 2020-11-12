@@ -7,13 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A44E311252489ED00CE3540 /* IRImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A44E30F252489ED00CE3540 /* IRImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A457A64255B8BAF004DF6B1 /* IRImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A457A62255B8BAF004DF6B1 /* IRImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A457A65255B8BAF004DF6B1 /* IRImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A457A63255B8BAF004DF6B1 /* IRImagePickerController.m */; };
+		4A457A78255B8C2B004DF6B1 /* IRAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A457A76255B8C2B004DF6B1 /* IRAssetCell.h */; };
+		4A457A79255B8C2B004DF6B1 /* IRAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A457A77255B8C2B004DF6B1 /* IRAssetCell.m */; };
+		4A457A7E255B8C42004DF6B1 /* IRAlbumCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A457A7C255B8C42004DF6B1 /* IRAlbumCell.h */; };
+		4A457A7F255B8C42004DF6B1 /* IRAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A457A7D255B8C42004DF6B1 /* IRAlbumCell.m */; };
+		4A457A84255B8C57004DF6B1 /* IRAlbumsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A457A82255B8C57004DF6B1 /* IRAlbumsViewController.h */; };
+		4A457A85255B8C57004DF6B1 /* IRAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A457A83255B8C57004DF6B1 /* IRAlbumsViewController.m */; };
+		4A457A89255B8C63004DF6B1 /* IRAssetsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A457A87255B8C63004DF6B1 /* IRAssetsViewController.h */; };
+		4A457A8A255B8C63004DF6B1 /* IRAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A457A88255B8C63004DF6B1 /* IRAssetsViewController.m */; };
+		4A457A8F255B8D4F004DF6B1 /* IRCheckmarkView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A457A8D255B8D4F004DF6B1 /* IRCheckmarkView.h */; };
+		4A457A90255B8D4F004DF6B1 /* IRCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A457A8E255B8D4F004DF6B1 /* IRCheckmarkView.m */; };
+		4A457A94255B8D5A004DF6B1 /* IRVideoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A457A92255B8D5A004DF6B1 /* IRVideoIconView.h */; };
+		4A457A95255B8D5A004DF6B1 /* IRVideoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A457A93255B8D5A004DF6B1 /* IRVideoIconView.m */; };
+		4A457A99255B8D68004DF6B1 /* IRSlomoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A457A97255B8D68004DF6B1 /* IRSlomoIconView.h */; };
+		4A457A9A255B8D68004DF6B1 /* IRSlomoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A457A98255B8D68004DF6B1 /* IRSlomoIconView.m */; };
+		4A457A9E255B8D75004DF6B1 /* IRVideoIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A457A9C255B8D75004DF6B1 /* IRVideoIndicatorView.h */; };
+		4A457A9F255B8D75004DF6B1 /* IRVideoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A457A9D255B8D75004DF6B1 /* IRVideoIndicatorView.m */; };
+		4A457AA2255B8E15004DF6B1 /* IRImagePickerController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A457AA1255B8E15004DF6B1 /* IRImagePickerController.storyboard */; };
+		4A457AF1255CD6D9004DF6B1 /* IRImagePickerController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A457AF3255CD6DA004DF6B1 /* IRImagePickerController.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A44E30C252489ED00CE3540 /* IRImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IRImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A44E30F252489ED00CE3540 /* IRImagePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRImagePickerController.h; sourceTree = "<group>"; };
 		4A44E310252489ED00CE3540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A457A62255B8BAF004DF6B1 /* IRImagePickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRImagePickerController.h; sourceTree = "<group>"; };
+		4A457A63255B8BAF004DF6B1 /* IRImagePickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRImagePickerController.m; sourceTree = "<group>"; };
+		4A457A76255B8C2B004DF6B1 /* IRAssetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAssetCell.h; sourceTree = "<group>"; };
+		4A457A77255B8C2B004DF6B1 /* IRAssetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAssetCell.m; sourceTree = "<group>"; };
+		4A457A7C255B8C42004DF6B1 /* IRAlbumCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAlbumCell.h; sourceTree = "<group>"; };
+		4A457A7D255B8C42004DF6B1 /* IRAlbumCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAlbumCell.m; sourceTree = "<group>"; };
+		4A457A82255B8C57004DF6B1 /* IRAlbumsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAlbumsViewController.h; sourceTree = "<group>"; };
+		4A457A83255B8C57004DF6B1 /* IRAlbumsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAlbumsViewController.m; sourceTree = "<group>"; };
+		4A457A87255B8C63004DF6B1 /* IRAssetsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRAssetsViewController.h; sourceTree = "<group>"; };
+		4A457A88255B8C63004DF6B1 /* IRAssetsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRAssetsViewController.m; sourceTree = "<group>"; };
+		4A457A8D255B8D4F004DF6B1 /* IRCheckmarkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRCheckmarkView.h; sourceTree = "<group>"; };
+		4A457A8E255B8D4F004DF6B1 /* IRCheckmarkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRCheckmarkView.m; sourceTree = "<group>"; };
+		4A457A92255B8D5A004DF6B1 /* IRVideoIconView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVideoIconView.h; sourceTree = "<group>"; };
+		4A457A93255B8D5A004DF6B1 /* IRVideoIconView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVideoIconView.m; sourceTree = "<group>"; };
+		4A457A97255B8D68004DF6B1 /* IRSlomoIconView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRSlomoIconView.h; sourceTree = "<group>"; };
+		4A457A98255B8D68004DF6B1 /* IRSlomoIconView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRSlomoIconView.m; sourceTree = "<group>"; };
+		4A457A9C255B8D75004DF6B1 /* IRVideoIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRVideoIndicatorView.h; sourceTree = "<group>"; };
+		4A457A9D255B8D75004DF6B1 /* IRVideoIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRVideoIndicatorView.m; sourceTree = "<group>"; };
+		4A457AA1255B8E15004DF6B1 /* IRImagePickerController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IRImagePickerController.storyboard; sourceTree = "<group>"; };
+		4A457AF2255CD6DA004DF6B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/IRImagePickerController.strings; sourceTree = "<group>"; };
+		4A457AF5255CD6F4004DF6B1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/IRImagePickerController.strings"; sourceTree = "<group>"; };
+		4A457AF7255CD700004DF6B1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/IRImagePickerController.strings"; sourceTree = "<group>"; };
+		4A457AF8255CD777004DF6B1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/IRImagePickerController.strings; sourceTree = "<group>"; };
+		4A457AF9255CD795004DF6B1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/IRImagePickerController.strings; sourceTree = "<group>"; };
+		4A457AFA255CD7A9004DF6B1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/IRImagePickerController.strings; sourceTree = "<group>"; };
+		4A457AFB255CD7B4004DF6B1 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/IRImagePickerController.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +90,45 @@
 		4A44E30E252489ED00CE3540 /* IRImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
-				4A44E30F252489ED00CE3540 /* IRImagePickerController.h */,
+				4A457A61255B8B45004DF6B1 /* Views */,
+				4A457A60255B8B3C004DF6B1 /* Classes */,
+				4A457AA1255B8E15004DF6B1 /* IRImagePickerController.storyboard */,
 				4A44E310252489ED00CE3540 /* Info.plist */,
+				4A457AF3255CD6DA004DF6B1 /* IRImagePickerController.strings */,
 			);
 			path = IRImagePickerController;
+			sourceTree = "<group>";
+		};
+		4A457A60255B8B3C004DF6B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A457A62255B8BAF004DF6B1 /* IRImagePickerController.h */,
+				4A457A63255B8BAF004DF6B1 /* IRImagePickerController.m */,
+				4A457A82255B8C57004DF6B1 /* IRAlbumsViewController.h */,
+				4A457A83255B8C57004DF6B1 /* IRAlbumsViewController.m */,
+				4A457A87255B8C63004DF6B1 /* IRAssetsViewController.h */,
+				4A457A88255B8C63004DF6B1 /* IRAssetsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A457A61255B8B45004DF6B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A457A7C255B8C42004DF6B1 /* IRAlbumCell.h */,
+				4A457A7D255B8C42004DF6B1 /* IRAlbumCell.m */,
+				4A457A76255B8C2B004DF6B1 /* IRAssetCell.h */,
+				4A457A77255B8C2B004DF6B1 /* IRAssetCell.m */,
+				4A457A8D255B8D4F004DF6B1 /* IRCheckmarkView.h */,
+				4A457A8E255B8D4F004DF6B1 /* IRCheckmarkView.m */,
+				4A457A92255B8D5A004DF6B1 /* IRVideoIconView.h */,
+				4A457A93255B8D5A004DF6B1 /* IRVideoIconView.m */,
+				4A457A97255B8D68004DF6B1 /* IRSlomoIconView.h */,
+				4A457A98255B8D68004DF6B1 /* IRSlomoIconView.m */,
+				4A457A9C255B8D75004DF6B1 /* IRVideoIndicatorView.h */,
+				4A457A9D255B8D75004DF6B1 /* IRVideoIndicatorView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +138,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A44E311252489ED00CE3540 /* IRImagePickerController.h in Headers */,
+				4A457A84255B8C57004DF6B1 /* IRAlbumsViewController.h in Headers */,
+				4A457A7E255B8C42004DF6B1 /* IRAlbumCell.h in Headers */,
+				4A457A99255B8D68004DF6B1 /* IRSlomoIconView.h in Headers */,
+				4A457A89255B8C63004DF6B1 /* IRAssetsViewController.h in Headers */,
+				4A457A9E255B8D75004DF6B1 /* IRVideoIndicatorView.h in Headers */,
+				4A457A64255B8BAF004DF6B1 /* IRImagePickerController.h in Headers */,
+				4A457A94255B8D5A004DF6B1 /* IRVideoIconView.h in Headers */,
+				4A457A8F255B8D4F004DF6B1 /* IRCheckmarkView.h in Headers */,
+				4A457A78255B8C2B004DF6B1 /* IRAssetCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +192,12 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
+				ja,
+				es,
+				de,
+				pl,
 			);
 			mainGroup = 4A44E302252489ED00CE3540;
 			productRefGroup = 4A44E30D252489ED00CE3540 /* Products */;
@@ -121,6 +214,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A457AA2255B8E15004DF6B1 /* IRImagePickerController.storyboard in Resources */,
+				4A457AF1255CD6D9004DF6B1 /* IRImagePickerController.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,16 +226,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A457A65255B8BAF004DF6B1 /* IRImagePickerController.m in Sources */,
+				4A457A9F255B8D75004DF6B1 /* IRVideoIndicatorView.m in Sources */,
+				4A457A79255B8C2B004DF6B1 /* IRAssetCell.m in Sources */,
+				4A457A95255B8D5A004DF6B1 /* IRVideoIconView.m in Sources */,
+				4A457A85255B8C57004DF6B1 /* IRAlbumsViewController.m in Sources */,
+				4A457A90255B8D4F004DF6B1 /* IRCheckmarkView.m in Sources */,
+				4A457A9A255B8D68004DF6B1 /* IRSlomoIconView.m in Sources */,
+				4A457A8A255B8C63004DF6B1 /* IRAssetsViewController.m in Sources */,
+				4A457A7F255B8C42004DF6B1 /* IRAlbumCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A457AF3255CD6DA004DF6B1 /* IRImagePickerController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A457AF2255CD6DA004DF6B1 /* en */,
+				4A457AF5255CD6F4004DF6B1 /* zh-Hans */,
+				4A457AF7255CD700004DF6B1 /* zh-Hant */,
+				4A457AF8255CD777004DF6B1 /* ja */,
+				4A457AF9255CD795004DF6B1 /* es */,
+				4A457AFA255CD7A9004DF6B1 /* de */,
+				4A457AFB255CD7B4004DF6B1 /* pl */,
+			);
+			name = IRImagePickerController.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4A44E312252489ED00CE3540 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -202,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

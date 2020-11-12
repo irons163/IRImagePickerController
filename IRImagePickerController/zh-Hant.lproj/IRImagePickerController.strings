@@ -1,0 +1,21 @@
+/* 
+  IRImagePickerController.strings
+  IRImagePickerController
+
+  Created by Phil on 2020/11/12.
+  Copyright © 2020 Phil. All rights reserved.
+*/
+
+"albums.title" = "照片";
+
+"assets.footer.photo" = "共%ld張照片";
+"assets.footer.photos" = "共%ld張照片";
+"assets.footer.video" = "共%ld個影片";
+"assets.footer.videos" = "共%ld個影片";
+"assets.footer.photo-and-video" = "共%ld 張照片, %ld 個影片";
+"assets.footer.photos-and-video" = "共%ld 張照片, %ld 個影片";
+"assets.footer.photo-and-videos" = "共%ld 張照片, %ld 個影片";
+"assets.footer.photos-and-videos" = "共%ld 張照片, %ld 個影片";
+
+"assets.toolbar.item-selected" = "選擇了%ld項";
+"assets.toolbar.items-selected" = "選擇了%ld項";
