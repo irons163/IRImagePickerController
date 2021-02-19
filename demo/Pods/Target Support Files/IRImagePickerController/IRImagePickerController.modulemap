@@ -1,0 +1,6 @@
+framework module IRImagePickerController {
+  umbrella header "IRImagePickerController-umbrella.h"
+
+  export *
+  module * { export * }
+}

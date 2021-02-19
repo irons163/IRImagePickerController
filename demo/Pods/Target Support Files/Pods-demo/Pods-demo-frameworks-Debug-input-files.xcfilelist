@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-demo/Pods-demo-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/IRGallery/IRGallery.framework
+${BUILT_PRODUCTS_DIR}/IRImagePickerController/IRImagePickerController.framework

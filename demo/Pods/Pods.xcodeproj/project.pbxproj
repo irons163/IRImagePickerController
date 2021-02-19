@@ -8,79 +8,154 @@
 
 /* Begin PBXBuildFile section */
 		127D9D7026A101DB8F6904056E7EC4CA /* IRGalleryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C1DC90EFBACF24C6906211C7B0AEA5 /* IRGalleryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A6602AB7C7A8F6ADA64DF4C96C35FDE /* IRVideoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D305764D0354FEA1BA1B973689D3B9 /* IRVideoIconView.m */; };
+		1BB3B563DF75A39118DD5B2C185C574D /* IRAlbumCell.h in Headers */ = {isa = PBXBuildFile; fileRef = AE575D9B27694EF1B96FA81C1AD272A1 /* IRAlbumCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26458FAE281E17E9C99C3CC00E93BCC5 /* btn_trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 625B788F9E461AEC29A5CBB04F3746F4 /* btn_trash.png */; };
 		298BA90615FE9CBA011C1D6351749F49 /* IRGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F883848D41F7764933573D89B690B449 /* IRGalleryViewController.m */; };
+		2AE4B894F592B89E94652C21A1BB15A2 /* IRImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCC6387A892F2428C4278838D9C26D28 /* IRImagePickerController.bundle */; };
+		2AF03CE5E993EFBFC043CDF1EB0DF690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C507AA41BA7343C9AF2400A3F9F87B2 /* IRVideoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C67D176CA18EDFBA30177E374E215DF /* IRVideoIndicatorView.m */; };
+		3049AB98DA5417A6CDE6256441FCD0F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		362DB5B074843A90CA3724F5445F1519 /* IRGalleryPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7422CEAAE3FEACFA774B30B860F6FA5B /* IRGalleryPhotoView.m */; };
-		4BD9C4992FB69FA8C7B3AF15364C9E7D /* Pods-demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 919022BC48F9439E29669B27B83A8482 /* Pods-demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FA18EAB66AF206C015CD9AC405E2977 /* IRAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BBCF8C61D2FD46FA0DEE13405EF6040 /* IRAlbumCell.m */; };
+		3FD75A95DB698675ABC60AFCE0296615 /* IRImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB6EB35BB953B13C8E17F0F8F90A5D4 /* IRImagePickerController.m */; };
+		41B748CAEB717EA0396828069BBD5E79 /* IRVideoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 368DC22667D104C11596B71837FF08EF /* IRVideoIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		485BFBA53E9283C71EB7D5A863DC056A /* IRImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 898ACC51C6D13F3CC1977DF5A13AAEE4 /* IRImagePickerController-dummy.m */; };
+		52667211D09250FC006C4BB14893E0FF /* IRCheckmarkView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA24B7E3F9431A91C23052AFA513A8B4 /* IRCheckmarkView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5466028D1E98150D864A9356A2E25458 /* IRAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1885109B3035ACBE52BD7A000EC8B067 /* IRAlbumsViewController.m */; };
 		576A99B06A566B473AAF025342317A2D /* IRGalleryPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 3903208F24F2FBAE9C1BAF2B65F9D99A /* IRGalleryPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A454AFCBAAB84CFC93A68D8C6BDAF86 /* IRGalleryPhotoView.h in Headers */ = {isa = PBXBuildFile; fileRef = EC41A3BF6256CE38BDC0633BAF336D3B /* IRGalleryPhotoView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61C117B689E4FB27E25D619E42303F98 /* IRAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C27DDC48BD4FBE32806FE179852A91 /* IRAssetCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6323CB432101D8FD96FC01A914D7B921 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B3C258E4AEB84902562E91B737B9E5 /* Utility.m */; };
+		63A8C987EDD6B23B3A4072C3FDFEAAFC /* Pods-demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 919022BC48F9439E29669B27B83A8482 /* Pods-demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6861310614A1925F4C2C8EA358816804 /* IRAlbumsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB670A32B8846DD8B99FD4FF69883E9F /* IRAlbumsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69FEF7E1930030B3322ACAB3AFD45546 /* IRGallery.h in Headers */ = {isa = PBXBuildFile; fileRef = 472875216C289C84943DE1B7A2BE5C48 /* IRGallery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71463D9D91FB438601BA7AA609FA8321 /* Pods-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DC5ABE867DFAFEEFE65EB904EC044 /* Pods-demo-dummy.m */; };
+		6B66674311FCED937FE9C36814408C76 /* IRSlomoIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF11BCD049424ED41E1E8E1DAB71272 /* IRSlomoIconView.m */; };
 		731CE8C50846EA067D4E2E70A99AE43B /* UIImage+Bundle.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E11BBC4003B6C23465779F93F82233 /* UIImage+Bundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		73FEFD56FD2B04B33902E1B8D9281A04 /* btn_video_send.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FD503113D9A32607623C4CE7CC0600 /* btn_video_send.png */; };
+		758FECADE8DC7997B259D0EB83D0E57C /* IRAssetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 393719DFC1AEFA9DE094CDB6B3684460 /* IRAssetsViewController.m */; };
 		83582AA63C2BD5436D239BA585A29C38 /* btn_video_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = CA82A81F2B716DA4D1254C238A2B85E1 /* btn_video_heart.png */; };
+		90183F0527B00B56A8B7D5417BB11F95 /* IRSlomoIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 152EE9023FE72BD50A0259B9D4AAF08E /* IRSlomoIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99DF1BB48CD6EF98E807E3EB6610F0E1 /* IRGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5995E8AD5076A81C5B2BA01A1A804D /* IRGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E772273AC6D1B3C99E78D614BA93E80 /* Pods-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5DC5ABE867DFAFEEFE65EB904EC044 /* Pods-demo-dummy.m */; };
 		A4A602C8BA5E042CA3D9C7204E8C44A4 /* btn_heart_h.png in Resources */ = {isa = PBXBuildFile; fileRef = C905420C855844FE618B1175EE37BBCC /* btn_heart_h.png */; };
 		ABE6BF2836C83352B1537C34BECB9FE6 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F619812895BB7049EE2473E6CA375B /* Utility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5FD868763C889CEFA5A4A47EA368784 /* IRImagePickerController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB88F9640991A9455E6F8F5665E69C4F /* IRImagePickerController.storyboard */; };
 		D91B3C2AA3959087E0A19279FCFE8380 /* IRGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2502BDF18BCB03F67A847CA24B22C3A1 /* IRGallery-dummy.m */; };
+		DAE0FD384E25081A9BD7847E32EDEE82 /* IRCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5CEB1D4E90007116A19A9B8003B951 /* IRCheckmarkView.m */; };
 		E702F52961D2908E21EC93FA1C5FAA60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E74AEB5E685CBE50B6F77E1C383FD40F /* IRImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E57A42E88D40F128175799EEB2EFD03 /* IRImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF7E91B7BD52C344AECDC2EAD3576634 /* IRAssetsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B552E29D9E5E3B42821551647601127A /* IRAssetsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0113B787EEE9B52215815535AD9D650 /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D560C92631D8B8D083629B0DE3F472 /* UIImage+Bundle.m */; };
 		F0BA4E4834F66BAD06E2F810BD13AEAF /* IRGalleryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5A3E602A3D5187B6785A460932ED5F /* IRGalleryPhoto.m */; };
-		F546C52AD0A0DC5B68C4008AE742113D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F31809941B9A85280A057ECDA9D753B3 /* IRVideoIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6C9D9E5341F20C13E39409FD8711C7 /* IRVideoIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F65743D546CEF2127FC7C8F7AE0A38CE /* btn_nav_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE41C61E05B53BD550FF2F628CFB55E /* btn_nav_back.png */; };
+		FA40ECC5C8EF63FDF06263A48257DBD6 /* IRImagePickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEAF25D7BD47C3ADD7E281DF6DBF33D /* IRImagePickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFF8F38727CDA6B1A9246E48BA0A76DB /* IRAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B708BF9B39B68C831FE9D0390556DBB5 /* IRAssetCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CDE423A69BC16B978F303BEB02227E88 /* PBXContainerItemProxy */ = {
+		119E43EFFD2DA48444573515D168CD7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E816548F0620B75550548A7626C0D86;
+			remoteInfo = IRImagePickerController;
+		};
+		9FF6D84548C02BA30D072538FA0220CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3521AD02964A59156C9B7E7D88CCBBAA;
 			remoteInfo = IRGallery;
 		};
+		B6610ADF3ED556B3E5005A5BE36F546A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6E3516900B826205A332A3F1ABB4DAA;
+			remoteInfo = "IRImagePickerController-IRImagePickerController";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		056C11651D9181CFD60992F50710A1E6 /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
+		07CAA57CB597C98D99803B4C69B63523 /* ResourceBundle-IRImagePickerController-IRImagePickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-IRImagePickerController-IRImagePickerController-Info.plist"; sourceTree = "<group>"; };
+		0BBCF8C61D2FD46FA0DEE13405EF6040 /* IRAlbumCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IRAlbumCell.m; sourceTree = "<group>"; };
 		0F5A3E602A3D5187B6785A460932ED5F /* IRGalleryPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRGalleryPhoto.m; path = IRGallery/Class/IRGalleryPhoto.m; sourceTree = "<group>"; };
 		121A98019EDE1637792C3553EC802119 /* IRGallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRGallery.release.xcconfig; sourceTree = "<group>"; };
+		152EE9023FE72BD50A0259B9D4AAF08E /* IRSlomoIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IRSlomoIconView.h; sourceTree = "<group>"; };
 		171784CD7F89555EFD77B2A0479363CA /* Pods-demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demo-Info.plist"; sourceTree = "<group>"; };
+		1885109B3035ACBE52BD7A000EC8B067 /* IRAlbumsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IRAlbumsViewController.m; sourceTree = "<group>"; };
 		2502BDF18BCB03F67A847CA24B22C3A1 /* IRGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRGallery-dummy.m"; sourceTree = "<group>"; };
 		28AE10451FFF7E75C3FFF8E9CB284B7F /* IRGallery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IRGallery-Info.plist"; sourceTree = "<group>"; };
+		296E521F303EA6980BA2985F139C2F03 /* IRImagePickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IRImagePickerController.framework; path = IRImagePickerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E57A42E88D40F128175799EEB2EFD03 /* IRImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IRImagePickerController.h; sourceTree = "<group>"; };
+		368DC22667D104C11596B71837FF08EF /* IRVideoIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IRVideoIconView.h; sourceTree = "<group>"; };
 		3903208F24F2FBAE9C1BAF2B65F9D99A /* IRGalleryPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRGalleryPhoto.h; path = IRGallery/Class/IRGalleryPhoto.h; sourceTree = "<group>"; };
+		393719DFC1AEFA9DE094CDB6B3684460 /* IRAssetsViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IRAssetsViewController.m; sourceTree = "<group>"; };
 		42F619812895BB7049EE2473E6CA375B /* Utility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = IRGallery/Class/Utility/Utility.h; sourceTree = "<group>"; };
 		472875216C289C84943DE1B7A2BE5C48 /* IRGallery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRGallery.h; path = IRGallery/IRGallery.h; sourceTree = "<group>"; };
 		4FE45AE5DAA8B1DF7D6099181AD9FA0A /* Pods-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C67D176CA18EDFBA30177E374E215DF /* IRVideoIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IRVideoIndicatorView.m; sourceTree = "<group>"; };
+		62087EC7F5076791CB75534125115B5C /* IRImagePickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IRImagePickerController-Info.plist"; sourceTree = "<group>"; };
 		620C2E500E91AE09F121C9670613B82F /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_demo.framework; path = "Pods-demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		625B788F9E461AEC29A5CBB04F3746F4 /* btn_trash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = btn_trash.png; path = IRGallery/Class/btn_trash.png; sourceTree = "<group>"; };
+		63FEA741BF56B72366D6587A7C459736 /* IRImagePickerController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = IRImagePickerController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		65D305764D0354FEA1BA1B973689D3B9 /* IRVideoIconView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IRVideoIconView.m; sourceTree = "<group>"; };
+		6987ACBAA9581AAADB2E7FECA81538A6 /* IRImagePickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRImagePickerController.debug.xcconfig; sourceTree = "<group>"; };
+		6EF11BCD049424ED41E1E8E1DAB71272 /* IRSlomoIconView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IRSlomoIconView.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7422CEAAE3FEACFA774B30B860F6FA5B /* IRGalleryPhotoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRGalleryPhotoView.m; path = IRGallery/Class/IRGalleryPhotoView.m; sourceTree = "<group>"; };
+		7AEAF25D7BD47C3ADD7E281DF6DBF33D /* IRImagePickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRImagePickerController-umbrella.h"; sourceTree = "<group>"; };
 		7C5DC5ABE867DFAFEEFE65EB904EC044 /* Pods-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-demo-dummy.m"; sourceTree = "<group>"; };
 		7C6EDA58721A1E6F1BF26E29EE38823F /* IRGallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRGallery-prefix.pch"; sourceTree = "<group>"; };
 		7FE41C61E05B53BD550FF2F628CFB55E /* btn_nav_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = btn_nav_back.png; path = IRGallery/Class/btn_nav_back.png; sourceTree = "<group>"; };
 		8304FA02D2A592F4996BA412884CCA37 /* Pods-demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-demo.modulemap"; sourceTree = "<group>"; };
 		88B3C258E4AEB84902562E91B737B9E5 /* Utility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Utility.m; path = IRGallery/Class/Utility/Utility.m; sourceTree = "<group>"; };
+		898ACC51C6D13F3CC1977DF5A13AAEE4 /* IRImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		8C2D5EFA226079521A94D287CDCE3693 /* IRImagePickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IRImagePickerController.modulemap; sourceTree = "<group>"; };
 		8D5995E8AD5076A81C5B2BA01A1A804D /* IRGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRGallery-umbrella.h"; sourceTree = "<group>"; };
 		90D5F2E28F1941C9131FAE122C77DB87 /* IRGallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRGallery.debug.xcconfig; sourceTree = "<group>"; };
 		919022BC48F9439E29669B27B83A8482 /* Pods-demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-demo-umbrella.h"; sourceTree = "<group>"; };
 		98FD503113D9A32607623C4CE7CC0600 /* btn_video_send.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = btn_video_send.png; path = IRGallery/Class/btn_video_send.png; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A033C9C90D68D790D1F15261107804DD /* IRImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRImagePickerController-prefix.pch"; sourceTree = "<group>"; };
 		AA6F28936150B774D174F70EC133595F /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		AD0FE056A4D62357ADF7BBB3D29B2E52 /* Pods-demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-demo-frameworks.sh"; sourceTree = "<group>"; };
+		AE575D9B27694EF1B96FA81C1AD272A1 /* IRAlbumCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IRAlbumCell.h; sourceTree = "<group>"; };
 		B2C1DC90EFBACF24C6906211C7B0AEA5 /* IRGalleryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRGalleryViewController.h; path = IRGallery/Class/IRGalleryViewController.h; sourceTree = "<group>"; };
 		B2E2F374032AD100DAA6FD812A938150 /* IRGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IRGallery.modulemap; sourceTree = "<group>"; };
+		B552E29D9E5E3B42821551647601127A /* IRAssetsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IRAssetsViewController.h; sourceTree = "<group>"; };
+		B708BF9B39B68C831FE9D0390556DBB5 /* IRAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IRAssetCell.m; sourceTree = "<group>"; };
 		C355CF6F3C334E8C60CED2FD39DE8B8E /* IRGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IRGallery.framework; path = IRGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C27DDC48BD4FBE32806FE179852A91 /* IRAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IRAssetCell.h; sourceTree = "<group>"; };
 		C7E11BBC4003B6C23465779F93F82233 /* UIImage+Bundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Bundle.h"; path = "IRGallery/Class/Utility/UIImage+Bundle.h"; sourceTree = "<group>"; };
 		C905420C855844FE618B1175EE37BBCC /* btn_heart_h.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = btn_heart_h.png; path = IRGallery/Class/btn_heart_h.png; sourceTree = "<group>"; };
 		CA82A81F2B716DA4D1254C238A2B85E1 /* btn_video_heart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = btn_video_heart.png; path = IRGallery/Class/btn_video_heart.png; sourceTree = "<group>"; };
+		CAB6EB35BB953B13C8E17F0F8F90A5D4 /* IRImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IRImagePickerController.m; sourceTree = "<group>"; };
+		CB88F9640991A9455E6F8F5665E69C4F /* IRImagePickerController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = IRImagePickerController.storyboard; path = IRImagePickerController/IRImagePickerController.storyboard; sourceTree = "<group>"; };
+		CEB3DD92216A015230050AC7A6413FBE /* IRImagePickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRImagePickerController.release.xcconfig; sourceTree = "<group>"; };
 		D6D560C92631D8B8D083629B0DE3F472 /* UIImage+Bundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Bundle.m"; path = "IRGallery/Class/Utility/UIImage+Bundle.m"; sourceTree = "<group>"; };
+		DCC6387A892F2428C4278838D9C26D28 /* IRImagePickerController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = IRImagePickerController.bundle; path = "IRImagePickerController-IRImagePickerController.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6C9D9E5341F20C13E39409FD8711C7 /* IRVideoIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IRVideoIndicatorView.h; sourceTree = "<group>"; };
 		EA96317F8DBE2C7048B863DEF1B67E14 /* Pods-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB5CEB1D4E90007116A19A9B8003B951 /* IRCheckmarkView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IRCheckmarkView.m; sourceTree = "<group>"; };
 		EC41A3BF6256CE38BDC0633BAF336D3B /* IRGalleryPhotoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRGalleryPhotoView.h; path = IRGallery/Class/IRGalleryPhotoView.h; sourceTree = "<group>"; };
 		F883848D41F7764933573D89B690B449 /* IRGalleryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRGalleryViewController.m; path = IRGallery/Class/IRGalleryViewController.m; sourceTree = "<group>"; };
+		FA24B7E3F9431A91C23052AFA513A8B4 /* IRCheckmarkView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IRCheckmarkView.h; sourceTree = "<group>"; };
+		FB670A32B8846DD8B99FD4FF69883E9F /* IRAlbumsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IRAlbumsViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		60D79CBEF48FB3E54D6612B931423606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF03CE5E993EFBFC043CDF1EB0DF690 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6FA1CF04053514FF1FDAC3A59F41C99C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,11 +164,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF840D5B13874B7E24413A6DAB7CF750 /* Frameworks */ = {
+		8241C6FA0C0AAE6E223F3A5B9CF3E229 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F546C52AD0A0DC5B68C4008AE742113D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7013A4E5334A31C1D9B5435EA1C0FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049AB98DA5417A6CDE6256441FCD0F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +192,14 @@
 				98FD503113D9A32607623C4CE7CC0600 /* btn_video_send.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		1F743DDAB923F745FF39C0E84723F1A0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				63FEA741BF56B72366D6587A7C459736 /* IRImagePickerController.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		26F8C6D1DCA2A68CB9E72A4872EA61EB /* Pods */ = {
@@ -135,12 +225,83 @@
 			path = "../Target Support Files/IRGallery";
 			sourceTree = "<group>";
 		};
+		51CE5FFF90B01AD1E8EE6BD676B01B7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE575D9B27694EF1B96FA81C1AD272A1 /* IRAlbumCell.h */,
+				0BBCF8C61D2FD46FA0DEE13405EF6040 /* IRAlbumCell.m */,
+				C6C27DDC48BD4FBE32806FE179852A91 /* IRAssetCell.h */,
+				B708BF9B39B68C831FE9D0390556DBB5 /* IRAssetCell.m */,
+				FA24B7E3F9431A91C23052AFA513A8B4 /* IRCheckmarkView.h */,
+				EB5CEB1D4E90007116A19A9B8003B951 /* IRCheckmarkView.m */,
+				152EE9023FE72BD50A0259B9D4AAF08E /* IRSlomoIconView.h */,
+				6EF11BCD049424ED41E1E8E1DAB71272 /* IRSlomoIconView.m */,
+				368DC22667D104C11596B71837FF08EF /* IRVideoIconView.h */,
+				65D305764D0354FEA1BA1B973689D3B9 /* IRVideoIconView.m */,
+				DF6C9D9E5341F20C13E39409FD8711C7 /* IRVideoIndicatorView.h */,
+				5C67D176CA18EDFBA30177E374E215DF /* IRVideoIndicatorView.m */,
+			);
+			name = Views;
+			path = IRImagePickerController/Views;
+			sourceTree = "<group>";
+		};
+		560CAB7F809828CC8FD673BE277E627B /* IRImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				CB88F9640991A9455E6F8F5665E69C4F /* IRImagePickerController.storyboard */,
+				5AA3C670CA826C7EA31F893A52171B3B /* Classes */,
+				1F743DDAB923F745FF39C0E84723F1A0 /* Pod */,
+				A6089AF1010626E0A52BD64D11AF6C17 /* Support Files */,
+				51CE5FFF90B01AD1E8EE6BD676B01B7C /* Views */,
+			);
+			name = IRImagePickerController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5AA3C670CA826C7EA31F893A52171B3B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB670A32B8846DD8B99FD4FF69883E9F /* IRAlbumsViewController.h */,
+				1885109B3035ACBE52BD7A000EC8B067 /* IRAlbumsViewController.m */,
+				B552E29D9E5E3B42821551647601127A /* IRAssetsViewController.h */,
+				393719DFC1AEFA9DE094CDB6B3684460 /* IRAssetsViewController.m */,
+				2E57A42E88D40F128175799EEB2EFD03 /* IRImagePickerController.h */,
+				CAB6EB35BB953B13C8E17F0F8F90A5D4 /* IRImagePickerController.m */,
+			);
+			name = Classes;
+			path = IRImagePickerController/Classes;
+			sourceTree = "<group>";
+		};
+		7C5C31D61E9CD414B2DEC7878F91D977 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				560CAB7F809828CC8FD673BE277E627B /* IRImagePickerController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A6089AF1010626E0A52BD64D11AF6C17 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C2D5EFA226079521A94D287CDCE3693 /* IRImagePickerController.modulemap */,
+				898ACC51C6D13F3CC1977DF5A13AAEE4 /* IRImagePickerController-dummy.m */,
+				62087EC7F5076791CB75534125115B5C /* IRImagePickerController-Info.plist */,
+				A033C9C90D68D790D1F15261107804DD /* IRImagePickerController-prefix.pch */,
+				7AEAF25D7BD47C3ADD7E281DF6DBF33D /* IRImagePickerController-umbrella.h */,
+				6987ACBAA9581AAADB2E7FECA81538A6 /* IRImagePickerController.debug.xcconfig */,
+				CEB3DD92216A015230050AC7A6413FBE /* IRImagePickerController.release.xcconfig */,
+				07CAA57CB597C98D99803B4C69B63523 /* ResourceBundle-IRImagePickerController-IRImagePickerController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "demo/Pods/Target Support Files/IRImagePickerController";
 			sourceTree = "<group>";
 		};
 		A93195AB5748F7569134F397E2674D09 /* Targets Support Files */ = {
@@ -168,13 +329,25 @@
 			path = "Target Support Files/Pods-demo";
 			sourceTree = "<group>";
 		};
+		CE08C3C92563D890EEE890829B7E9B66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C355CF6F3C334E8C60CED2FD39DE8B8E /* IRGallery.framework */,
+				DCC6387A892F2428C4278838D9C26D28 /* IRImagePickerController.bundle */,
+				296E521F303EA6980BA2985F139C2F03 /* IRImagePickerController.framework */,
+				620C2E500E91AE09F121C9670613B82F /* Pods_demo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7C5C31D61E9CD414B2DEC7878F91D977 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				26F8C6D1DCA2A68CB9E72A4872EA61EB /* Pods */,
-				E3D93FD66DA63FBC3F924461322BF171 /* Products */,
+				CE08C3C92563D890EEE890829B7E9B66 /* Products */,
 				A93195AB5748F7569134F397E2674D09 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -185,15 +358,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E3D93FD66DA63FBC3F924461322BF171 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C355CF6F3C334E8C60CED2FD39DE8B8E /* IRGallery.framework */,
-				620C2E500E91AE09F121C9670613B82F /* Pods_demo.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FFDA35EB694EF2AE17847D56B9A53E11 /* IRGallery */ = {
@@ -220,6 +384,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		86D2D673578D49FBF8EB33910993D97D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A8C987EDD6B23B3A4072C3FDFEAAFC /* Pods-demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2788D7559C7695BC1E02353839ADB1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB3B563DF75A39118DD5B2C185C574D /* IRAlbumCell.h in Headers */,
+				6861310614A1925F4C2C8EA358816804 /* IRAlbumsViewController.h in Headers */,
+				61C117B689E4FB27E25D619E42303F98 /* IRAssetCell.h in Headers */,
+				EF7E91B7BD52C344AECDC2EAD3576634 /* IRAssetsViewController.h in Headers */,
+				52667211D09250FC006C4BB14893E0FF /* IRCheckmarkView.h in Headers */,
+				FA40ECC5C8EF63FDF06263A48257DBD6 /* IRImagePickerController-umbrella.h in Headers */,
+				E74AEB5E685CBE50B6F77E1C383FD40F /* IRImagePickerController.h in Headers */,
+				90183F0527B00B56A8B7D5417BB11F95 /* IRSlomoIconView.h in Headers */,
+				41B748CAEB717EA0396828069BBD5E79 /* IRVideoIconView.h in Headers */,
+				F31809941B9A85280A057ECDA9D753B3 /* IRVideoIndicatorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C84F2896FD4101A7DF54DA66DE8501C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,30 +423,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6BA9013F451A43CFBED61148997FF14 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4BD9C4992FB69FA8C7B3AF15364C9E7D /* Pods-demo-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		06211BFED24C96E7ADA9B774FAC62F28 /* Pods-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7AE1438638E5E507DBCAE4A471DFBB1 /* Build configuration list for PBXNativeTarget "Pods-demo" */;
+			buildConfigurationList = 228E9FFA4C48DAEE7A739DB777D23167 /* Build configuration list for PBXNativeTarget "Pods-demo" */;
 			buildPhases = (
-				D6BA9013F451A43CFBED61148997FF14 /* Headers */,
-				BD585E66A4F506FA9A21573A2B1B84BC /* Sources */,
-				EF840D5B13874B7E24413A6DAB7CF750 /* Frameworks */,
-				398AB4361540BF4AFF333C4CDCB8A0CA /* Resources */,
+				86D2D673578D49FBF8EB33910993D97D /* Headers */,
+				3CBB2725D14FCF1209EE91EB4C0836EF /* Sources */,
+				D7013A4E5334A31C1D9B5435EA1C0FE0 /* Frameworks */,
+				F00AA6DACE2499F3AED91C55682444B8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8263035573314D36871F62E2D26DCBBB /* PBXTargetDependency */,
+				B8C88BB26F74E75B0E8B0CCE113BD37B /* PBXTargetDependency */,
+				B4AC2036D5A7E28560893697C8F9BD1B /* PBXTargetDependency */,
 			);
 			name = "Pods-demo";
 			productName = "Pods-demo";
@@ -282,6 +464,42 @@
 			productReference = C355CF6F3C334E8C60CED2FD39DE8B8E /* IRGallery.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4E816548F0620B75550548A7626C0D86 /* IRImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE9EF57CBB12BB29217FC8740BBB15D /* Build configuration list for PBXNativeTarget "IRImagePickerController" */;
+			buildPhases = (
+				C2788D7559C7695BC1E02353839ADB1E /* Headers */,
+				71997E4E9890DE097101D9C2CC2DBC63 /* Sources */,
+				60D79CBEF48FB3E54D6612B931423606 /* Frameworks */,
+				E592C624FE29BDA01B22A0F1C81F1EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F01089FC1BD936F7E7781AF6F2800FD4 /* PBXTargetDependency */,
+			);
+			name = IRImagePickerController;
+			productName = IRImagePickerController;
+			productReference = 296E521F303EA6980BA2985F139C2F03 /* IRImagePickerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6E3516900B826205A332A3F1ABB4DAA /* IRImagePickerController-IRImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A274EBE7848929784099ACF8BEC45F /* Build configuration list for PBXNativeTarget "IRImagePickerController-IRImagePickerController" */;
+			buildPhases = (
+				7ED0293FCC41CAAD3A6611839696CD2D /* Sources */,
+				8241C6FA0C0AAE6E223F3A5B9CF3E229 /* Frameworks */,
+				4DAF3A3D3905AA1E144F175F563A6555 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IRImagePickerController-IRImagePickerController";
+			productName = "IRImagePickerController-IRImagePickerController";
+			productReference = DCC6387A892F2428C4278838D9C26D28 /* IRImagePickerController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -300,11 +518,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E3D93FD66DA63FBC3F924461322BF171 /* Products */;
+			productRefGroup = CE08C3C92563D890EEE890829B7E9B66 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3521AD02964A59156C9B7E7D88CCBBAA /* IRGallery */,
+				4E816548F0620B75550548A7626C0D86 /* IRImagePickerController */,
+				C6E3516900B826205A332A3F1ABB4DAA /* IRImagePickerController-IRImagePickerController */,
 				06211BFED24C96E7ADA9B774FAC62F28 /* Pods-demo */,
 			);
 		};
@@ -323,7 +543,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		398AB4361540BF4AFF333C4CDCB8A0CA /* Resources */ = {
+		4DAF3A3D3905AA1E144F175F563A6555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5FD868763C889CEFA5A4A47EA368784 /* IRImagePickerController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E592C624FE29BDA01B22A0F1C81F1EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE4B894F592B89E94652C21A1BB15A2 /* IRImagePickerController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00AA6DACE2499F3AED91C55682444B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,6 +569,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3CBB2725D14FCF1209EE91EB4C0836EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E772273AC6D1B3C99E78D614BA93E80 /* Pods-demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41FA7E3FB565E6BF15DF0A8CD437A3B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,22 +590,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD585E66A4F506FA9A21573A2B1B84BC /* Sources */ = {
+		71997E4E9890DE097101D9C2CC2DBC63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71463D9D91FB438601BA7AA609FA8321 /* Pods-demo-dummy.m in Sources */,
+				3FA18EAB66AF206C015CD9AC405E2977 /* IRAlbumCell.m in Sources */,
+				5466028D1E98150D864A9356A2E25458 /* IRAlbumsViewController.m in Sources */,
+				FFF8F38727CDA6B1A9246E48BA0A76DB /* IRAssetCell.m in Sources */,
+				758FECADE8DC7997B259D0EB83D0E57C /* IRAssetsViewController.m in Sources */,
+				DAE0FD384E25081A9BD7847E32EDEE82 /* IRCheckmarkView.m in Sources */,
+				485BFBA53E9283C71EB7D5A863DC056A /* IRImagePickerController-dummy.m in Sources */,
+				3FD75A95DB698675ABC60AFCE0296615 /* IRImagePickerController.m in Sources */,
+				6B66674311FCED937FE9C36814408C76 /* IRSlomoIconView.m in Sources */,
+				1A6602AB7C7A8F6ADA64DF4C96C35FDE /* IRVideoIconView.m in Sources */,
+				2C507AA41BA7343C9AF2400A3F9F87B2 /* IRVideoIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED0293FCC41CAAD3A6611839696CD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8263035573314D36871F62E2D26DCBBB /* PBXTargetDependency */ = {
+		B4AC2036D5A7E28560893697C8F9BD1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRImagePickerController;
+			target = 4E816548F0620B75550548A7626C0D86 /* IRImagePickerController */;
+			targetProxy = 119E43EFFD2DA48444573515D168CD7A /* PBXContainerItemProxy */;
+		};
+		B8C88BB26F74E75B0E8B0CCE113BD37B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IRGallery;
 			target = 3521AD02964A59156C9B7E7D88CCBBAA /* IRGallery */;
-			targetProxy = CDE423A69BC16B978F303BEB02227E88 /* PBXContainerItemProxy */;
+			targetProxy = 9FF6D84548C02BA30D072538FA0220CD /* PBXContainerItemProxy */;
+		};
+		F01089FC1BD936F7E7781AF6F2800FD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "IRImagePickerController-IRImagePickerController";
+			target = C6E3516900B826205A332A3F1ABB4DAA /* IRImagePickerController-IRImagePickerController */;
+			targetProxy = B6610ADF3ED556B3E5005A5BE36F546A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,12 +671,10 @@
 			};
 			name = Debug;
 		};
-		7C5D44D55E3A2E6238C63B3250B8DA8C /* Release */ = {
+		09B2A6C5ABDE1A5833130AACCC358545 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 056C11651D9181CFD60992F50710A1E6 /* Pods-demo.release.xcconfig */;
+			baseConfigurationReference = CEB3DD92216A015230050AC7A6413FBE /* IRImagePickerController.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -413,29 +683,43 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-demo/Pods-demo-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/IRImagePickerController/IRImagePickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRImagePickerController/IRImagePickerController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-demo/Pods-demo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/IRImagePickerController/IRImagePickerController.modulemap";
+				PRODUCT_MODULE_NAME = IRImagePickerController;
+				PRODUCT_NAME = IRImagePickerController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4F9CDF659BDB05F95FC2D80452F9BFC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6987ACBAA9581AAADB2E7FECA81538A6 /* IRImagePickerController.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IRImagePickerController";
+				IBSC_MODULE = IRImagePickerController;
+				INFOPLIST_FILE = "Target Support Files/IRImagePickerController/ResourceBundle-IRImagePickerController-IRImagePickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = IRImagePickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -499,7 +783,40 @@
 			};
 			name = Release;
 		};
-		9BF517898F820EB786D5A9C5A10BF2ED /* Debug */ = {
+		9118EDA46B48691DF9D19732531C9294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6987ACBAA9581AAADB2E7FECA81538A6 /* IRImagePickerController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRImagePickerController/IRImagePickerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRImagePickerController/IRImagePickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IRImagePickerController/IRImagePickerController.modulemap";
+				PRODUCT_MODULE_NAME = IRImagePickerController;
+				PRODUCT_NAME = IRImagePickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B46ECE6DC6C080291B1415D11A04404A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AA6F28936150B774D174F70EC133595F /* Pods-demo.debug.xcconfig */;
 			buildSettings = {
@@ -602,6 +919,44 @@
 			};
 			name = Debug;
 		};
+		CD8A91AB210A53EBED7967F1ABCC5C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056C11651D9181CFD60992F50710A1E6 /* Pods-demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-demo/Pods-demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-demo/Pods-demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D79676488677ABAC485D11A0EDFD9C00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 121A98019EDE1637792C3553EC802119 /* IRGallery.release.xcconfig */;
@@ -636,9 +991,43 @@
 			};
 			name = Release;
 		};
+		F4E42A43159D4F497EDF3982AA5552C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB3DD92216A015230050AC7A6413FBE /* IRImagePickerController.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/IRImagePickerController";
+				IBSC_MODULE = IRImagePickerController;
+				INFOPLIST_FILE = "Target Support Files/IRImagePickerController/ResourceBundle-IRImagePickerController-IRImagePickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = IRImagePickerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		13A274EBE7848929784099ACF8BEC45F /* Build configuration list for PBXNativeTarget "IRImagePickerController-IRImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9CDF659BDB05F95FC2D80452F9BFC6 /* Debug */,
+				F4E42A43159D4F497EDF3982AA5552C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228E9FFA4C48DAEE7A739DB777D23167 /* Build configuration list for PBXNativeTarget "Pods-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46ECE6DC6C080291B1415D11A04404A /* Debug */,
+				CD8A91AB210A53EBED7967F1ABCC5C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -657,11 +1046,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7AE1438638E5E507DBCAE4A471DFBB1 /* Build configuration list for PBXNativeTarget "Pods-demo" */ = {
+		8CE9EF57CBB12BB29217FC8740BBB15D /* Build configuration list for PBXNativeTarget "IRImagePickerController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BF517898F820EB786D5A9C5A10BF2ED /* Debug */,
-				7C5D44D55E3A2E6238C63B3250B8DA8C /* Release */,
+				9118EDA46B48691DF9D19732531C9294 /* Debug */,
+				09B2A6C5ABDE1A5833130AACCC358545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

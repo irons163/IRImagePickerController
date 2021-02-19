@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,8 +15,6 @@
 		4A44E33025248A1000CE3540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A44E32F25248A1000CE3540 /* Assets.xcassets */; };
 		4A44E33325248A1000CE3540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A44E33125248A1000CE3540 /* LaunchScreen.storyboard */; };
 		4A44E33625248A1000CE3540 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A44E33525248A1000CE3540 /* main.m */; };
-		4A457AE6255BD259004DF6B1 /* IRImagePickerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A44E34125248A2500CE3540 /* IRImagePickerController.framework */; };
-		4A457AE7255BD259004DF6B1 /* IRImagePickerController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A44E34125248A2500CE3540 /* IRImagePickerController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +26,6 @@
 			remoteInfo = IRImagePickerController;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		4A457AE8255BD259004DF6B1 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4A457AE7255BD259004DF6B1 /* IRImagePickerController.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4A44E32025248A0E00CE3540 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A457AE6255BD259004DF6B1 /* IRImagePickerController.framework in Frameworks */,
 				06FE0D0EAD4C2AF976A01DC6 /* Pods_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +117,6 @@
 				DECEC7CBDE2625AD07BD1E8A /* Pods-demo.debug.xcconfig */,
 				658D4E62F3392E6BB0B29B07 /* Pods-demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,7 +131,6 @@
 				4A44E31C25248A0E00CE3540 /* Sources */,
 				4A44E31D25248A0E00CE3540 /* Frameworks */,
 				4A44E31E25248A0E00CE3540 /* Resources */,
-				4A457AE8255BD259004DF6B1 /* Embed Frameworks */,
 				4BC5C885D8CBAAB42E956389 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (

@@ -1,16 +1,23 @@
 PODS:
   - IRGallery (0.1.2)
+  - IRImagePickerController (1.0.0)
 
 DEPENDENCIES:
   - IRGallery
+  - IRImagePickerController (from `../IRImagePickerController.podspec`)
 
 SPEC REPOS:
   trunk:
     - IRGallery
 
+EXTERNAL SOURCES:
+  IRImagePickerController:
+    :path: "../IRImagePickerController.podspec"
+
 SPEC CHECKSUMS:
   IRGallery: 5a94e2557fcaf6d69e5bfc96db5419ad737f2240
+  IRImagePickerController: fb87c271d299bdad717f5b25097f187ee2a61cf1
 
-PODFILE CHECKSUM: af8aa849b7d3afd6e945ca67ff6468e2dfc294f0
+PODFILE CHECKSUM: d549c3ca3170c9f77b84c2d12619e8d7bbda77c3
 
 COCOAPODS: 1.10.0
