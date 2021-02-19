@@ -1,0 +1,16 @@
+PODS:
+  - IRGallery (0.1.2)
+
+DEPENDENCIES:
+  - IRGallery
+
+SPEC REPOS:
+  trunk:
+    - IRGallery
+
+SPEC CHECKSUMS:
+  IRGallery: 5a94e2557fcaf6d69e5bfc96db5419ad737f2240
+
+PODFILE CHECKSUM: af8aa849b7d3afd6e945ca67ff6468e2dfc294f0
+
+COCOAPODS: 1.10.0
