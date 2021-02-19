@@ -155,7 +155,7 @@ The code below shows the default value.
 This project is nice to cooperate with [IRGallery](https://github.com/irons163/IRGallery).
 See demo to learn how to use it.
 
-![demo1.png](./ScreenShots/demo1.png)
+![demo01.png](./ScreenShots/demo01.png)
 
 
 ## License

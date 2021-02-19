@@ -7,7 +7,7 @@ target 'demo' do
 
   # Pods for demo
   pod 'IRGallery'
-#  pod 'IRImagePickerController'
+  pod 'IRImagePickerController'
 #  Development Pods
-  pod 'IRImagePickerController', :path => '../IRImagePickerController.podspec'
+#  pod 'IRImagePickerController', :path => '../IRImagePickerController.podspec'
 end
